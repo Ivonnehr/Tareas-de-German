@@ -1,0 +1,83 @@
+    @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background: radial-gradient(#82a7cd,#70c7d4,#74abb9);
+        height: 100vh;
+        overflow: hidden;
+        font-family: 'Popins', sans-serif;
+    }
+    .contenido
+    {
+        width: 400px;
+        padding: 20px;
+        margin: 230px auto;
+        position: relative;
+   }
+    .contenido .header
+    {
+        font-size: 28px;
+        font-weight: bold;
+        color: #fff;
+        padding: 25px 0 30px 25px;
+        background: #174e69;
+        border-bottom: 1px solid #0e103f;
+        border-radius: 5px 5px 0 0;
+        width: 400px;
+        padding: 20px;
+        position: relative;
+    }
+    .contenido form
+    {
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        padding: 50px 10px 0 30px;
+        box-sizing: border-box;
+        border: 1px solid #174e69;
+        border-radius: 0 0 5px 5px;
+    
+    }
+    form input
+    {
+        height: 50px;
+        width: 70%;
+        padding: 0 10px;
+        border-radius: 3px;
+        border: 1px solid rgb(188, 178, 178);
+        font-size: 18px;
+        outline: none;
+    }
+    form i
+    {
+        position: absolute;
+        font-size: 25px;
+        color: rgb(111, 111, 111);
+        margin: 15px 0 0 -45px;
+    }
+        
+    i.fa-lock
+    {
+        margin-top: 35px;
+        
+    }
+    form input[type="submit"]
+    {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 130px;
+        height: 45px;
+        color: #fff;
+        cursor: pointer;
+        line-height: 45px;
+        border-radius: 45px;
+        border-radius: 5px;
+        background: #174e69;
+    }
+   form input[type="submit"]:hover
+   {
+        background: #6a6ca9;
+        transition: .5s;
+     }
+    
